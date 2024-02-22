@@ -1,0 +1,147 @@
+/* css reset */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+.varshney{
+    display: flex;
+    /* background-color: black; */
+    border-radius: 10px;
+    padding: 15px;
+    /* justify-content: center; */
+    
+    
+}
+.shubham a{
+    padding: 0px 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 20px; 
+    border-radius: 90px;
+    /* border: 1px solid white; */
+    margin: 3px;
+}
+.shubham a:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+.shubham{
+    list-style: none;
+    align-items:center ;
+    display: flex;
+    /* margin-left:16%; */
+
+}
+.aditya{
+    margin: auto ;
+    margin-top: 30px;
+    width: 2000px;
+}
+.varshney::before{
+    background-image: url('/image\ food.webp');
+    content: '';
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.89;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-size: cover;
+}
+
+.aditya h1{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: 0px 820px;
+    border-radius: 20px;
+    color: black;
+    /* background-color: black; */
+}
+.aditya p{
+    color:black;
+    opacity: 1;
+    margin: 7px 650px;
+    border-radius: 20px;
+}
+/* Styles for the search container */
+#search{
+    border:9px solid white;
+    background-color: white;
+    border-radius: 40px;
+    opacity: 0.7;
+    /* background-color: transparent; */
+
+    
+}
+input[type='text']{
+    /* padding: 6px 10px; */
+    width: 200px;
+    /* background-color: transparent; */
+    
+}
+button{
+    position: absolute;
+    top: 0px;
+    right: 300px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+.pp{
+    right: 0px;
+    margin-right: 210px;
+    background-color: black;
+}
+#login{
+    color: white;
+    /* background-color:white; */
+    border-radius: 50px;
+    border: 1px solid black;
+    opacity: 0.9;
+    padding: 10px;
+    /* background-color: transparent; */
+    /* background-color: black; */
+    width: 40px;
+}
+/* .ramu{
+    display: flex;
+    width: 100%;
+    display: block;
+    position:absolute;
+    bottom: 400px;
+
+}
+.box{
+    display: inline;
+    margin: 150px;
+    border: 4px solid red;
+
+}
+.pt{
+    text-align: center;
+} */
+.ramu{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 50px;
+}
+.box{
+    height: 90px;
+    border: 2px solid green;
+    display: inline-block;
+    padding: 90px;
+    margin: 50px;
+}
+
+
+
+
